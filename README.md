@@ -15,22 +15,20 @@ Instead of only reading the rules, I can work through interactive lessons, pract
 - Local progress, XP, lesson completion, ranks, and activity streaks
 - A rulebook that separates official chess rules from practical strategy
 
-## Play
+## Learning journey
 
-[Open Astral Chess Academy](https://annorang.github.io/astralchess/)
+The course begins with the aim of chess and how to read the board. It then introduces every piece and the language used to describe moves before covering king safety and the special rules of chess.
 
-## Run locally
+Once the rules are familiar, the lessons move into opening principles, tactical patterns, middlegame planning, and basic endgame technique. The final section explains how to practise, review games, and continue improving.
 
-```bash
-npm install
-npm run dev
-```
+Each lesson focuses on one main idea. It includes a short explanation, practical reminders, a board position to solve, and a knowledge check. The exercises use legal chess positions and only complete when the intended move is played.
 
-## Test and build
+## Playing and improving
 
-```bash
-npm test
-npm run build
-```
+Throughout the course, Astra acts as the academy guide. He introduces ideas, points out common mistakes, and gradually shifts from explaining moves to asking the questions I should learn to ask myself.
 
-The project is built with React, Vite, and `chess.js`, and is deployed to GitHub Pages through GitHub Actions.
+After learning the concepts, I can play complete games against a bot at three difficulty levels. The game provides optional guidance without choosing every move for me, encouraging me to check threats, compare candidate moves, and think about the opponent's best reply.
+
+Progress is saved in the browser. Completing lessons awards XP, unlocks academy ranks, records course completion, and builds an activity streak. Every section remains available from the course map, so I can return to a specific rule or idea whenever I need a refresher.
+
+The goal of the project is not only to memorise how the pieces move, but to build a repeatable thought process for playing full games with confidence.
